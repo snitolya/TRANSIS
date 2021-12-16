@@ -1,5 +1,32 @@
-@media screen and (max-width:1250px){
+@media screen and (max-width:1300px){
   .language{
      padding-right: 0px;
      }
 }
+
+
+
+@media screen and (max-width:360px){
+  .navigation{
+    display: none;     
+     }
+  .language , .mail{
+    font-size: 14px;
+  }
+  .header_second{
+  height: 50px;
+
+  }
+  .header_second img{
+    margin-left: 15px;
+  }
+  .banner img {
+    margin-top: 45px;
+  }
+}
+
+
+
+
+
+
