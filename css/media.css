@@ -25,9 +25,31 @@
 }
 }
 
-@media screen and (max-width:1160px){
-  
+@media screen and (max-width:1170px){
+    .geography{
+     margin-top: 60px;
+    }
+    .topics-list{
+      width: 60%;
+      gap: 35px 35px;
+      margin-left: 200px;
+    }
+    .container{
+      height: 1000px;
+    }
  }
+
+ @media screen and (max-width:1140px){
+  .middle-line-geo{
+    margin-left: 780px;
+  }
+}
+
+@media screen and (max-width:1115px){
+  .footer-social{
+    
+  }
+}
 
 
 
