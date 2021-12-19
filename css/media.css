@@ -91,6 +91,11 @@
 }
 }
 
+@media screen and (max-width:1025px){
+  .banner img{
+    margin-top: 30px;
+  }
+}
 
 @media screen and (max-width:1000px){
 .topics-list{
@@ -137,9 +142,91 @@
 }
 
 @media screen and (max-width:940px){
-  
+  .list{
+    gap: 0px 0px;
+    margin-top: 5px;
+  }
+  .container_two{
+    height: 390px;
+  }
+  .topics-list{
+    margin-left: 100px;
+  }
+  .geography {
+    margin-top: 95px;
+  }
+
 }
 
+@media screen and (max-width:918px){
+  .navigation ul li a{
+      font-size: 16px;
+    }
+  .banner_info h1{
+    font-size: 30px;
+  }
+  .banner_info_defenition {
+    font-size: 16px;
+  }
+  .middle-line{
+    width: 60px;
+  }
+  .geography h2 , .container h2 , .container_two h2{
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width:905px){
+  .footer-social ul li a{
+    padding: 10px;
+  }
+  .phone , .clock , .poisk{
+    font-size: 12px;
+}
+}
+
+@media screen and (max-width:900px){
+  .country{
+    flex-wrap: wrap;
+    gap: 95px 200px;
+    height: 600px;
+  }
+}
+
+@media screen and (max-width:870px){
+  .navigation ul li a{
+    padding: 0px 60px 0px 0px;
+  }
+  .middle-line-geo{
+    margin-left: 550px;
+  }
+  .banner img{
+    margin-top: 40px;
+  }
+  .banner_info h1{
+    margin-top:10px ;
+  }
+  .middle-line{
+    width: 50px;
+  }
+  .topics-list{
+    flex-wrap: wrap;
+    width: 55%;
+    gap: 10px 10px;
+  }
+  .container{
+    margin-top: 35px;
+    height: 890px;
+  }
+}
+
+@media screen and (max-width:815px){
+  .topics-list{
+    margin-left: 55px;
+  }
+  
+  
+}
 
 
 
@@ -164,7 +251,6 @@
   }
   .header_second{
   height: 50px;
-
   }
   .header_second img{
     margin-left: 15px;
