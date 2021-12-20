@@ -224,9 +224,165 @@
   .topics-list{
     margin-left: 55px;
   }
-  
+  .middle-line-geo{
+    margin-left: 470px;
+  }
+  .geography{
+    padding-top: 100px;
+  }
+  .footer-social ul li a{
+    padding: 5px;
+  }
   
 }
+
+
+@media screen and (max-width:790px){
+  .navigation ul li a{
+    padding: 0px 30px 0px 0px;
+    }
+  .item{
+    padding: 20px;
+    margin: 20px 5px 0px;
+    margin-left: 30px;
+    width: 200px;
+    height: 220px;
+  }
+  .list-item img{
+    width: 35px;
+    height: 35px;
+    margin: 5px 0px 5px 60px;
+  }
+  .footer-social ul li a{
+    padding: 0px;
+  }
+  }
+
+  @media screen and (max-width:765px){
+    .middle-line-geo{
+      margin-left: 400px;
+    }
+    footer{
+      height: 440px;
+    }
+    .footer-container{
+      flex-wrap: wrap;
+      width: 50%;
+    }
+    .footer-line{
+      margin-top: 255px;
+    }
+    .poisk{
+      margin: 5px;
+    }
+    .topics-list{
+      width: 48%;
+    }
+  }
+
+  @media screen and (max-width:720px){
+    .country{
+      flex-wrap: wrap;
+      gap: 50px 100px;
+      height: 600px;
+    }
+    .list , .list-item{
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+    }
+    .container_two{
+      height: 620px;
+    }
+    .middle-line-geo{
+      margin-left: 360px;
+    }
+    .banner_info h1{
+      font-size: 18;
+      line-height: 30px;
+      margin-top: 5px;
+    }
+    .banner_info_defenition{
+      font-size: 13px;
+      line-height: 18px;
+      font-weight: 500;
+      padding-bottom: 50px;
+    }
+    .banner_info{
+      width: 350px;
+    }
+    .middle-line{
+      min-width: 310px;
+    }
+    .geography{
+      padding-top: 20px;
+    }
+    .banner img{
+      margin-top: 50px;
+    }
+  }
+
+  @media screen and (max-width:670px){
+    .navigation ul li a{
+      padding: 0px 15px 0px 0px;
+      }
+    .topics-list{
+      margin-left: 20px;
+      }
+    .container h2{
+      margin-right: 300px;
+    }
+    .middle-line-geo{
+      margin-left: 280px;
+    }
+    .poisk , .clock , .phone , .footer-social{
+      margin-top: 10px;
+    }
+  }
+
+  @media screen and (max-width:630px){
+    .topics-list{
+      width: 20%;
+      margin-left: 210px;
+    }
+    .container{
+      height: 1850px;
+    }
+    
+  }
+
+  @media screen and (max-width:610px){
+    .navigation ul li a{
+      padding: 0px 15px 0px 0px;
+      font-size: 14px;
+      } 
+    .geography{
+      width: 90%;
+      height:1250px;
+    }
+    .middle-line-geo{
+      margin-left: 200px;
+    }
+    .title{
+    padding-left: 25px;
+    }
+    .container h2{
+      text-align: left;
+    }
+    .middle-line-two{
+      margin-left: 80px;
+    }
+    .banner_info{
+      top: 295px;
+    }
+    .banner{
+      padding-bottom: 30px;
+    }
+    }
+
+  @media screen and (max-width:560px){
+  
+  }
 
 
 
