@@ -236,7 +236,6 @@
   
 }
 
-
 @media screen and (max-width:790px){
   .navigation ul li a{
     padding: 0px 30px 0px 0px;
@@ -378,25 +377,123 @@
     .banner{
       padding-bottom: 30px;
     }
+    .banner img{
+      margin-top: 60px;
+    }
     }
 
   @media screen and (max-width:560px){
-  
+    .navigation ul li a{
+      padding: 0px 10px 0px 0px;
+      font-size: 12px;
+      }
+    .banner_info{
+      top: 245px;
+    }
+    .topics-list{
+      width: 20%;
+      margin-left: 170px;
+    }
   }
 
+  @media screen and (max-width:519px){
+    .container_two{
+      height: 900px;
+    }
+    .middle-line-geo{
+      margin-left: 120px;
+    }
+  }
 
+  @media screen and (max-width:494px){
+    .footer-container{
+      display: block;
+      font-size: 15px;
+    }
+    .topics-list{
+      margin-left: 125px;
+    }
+    .navigation {
+      display: none;
+    }
+    }
 
+  @media screen and (max-width:450px){
+    .topics-list{
+       margin-left: 100px;
+      }
+      .middle-line-geo{
+        margin-left: 90px;
+      }
+      .banner_info h1{
+        font-size: 15px;
+      }
+      .banner_info{
+        margin-left: 0px;
+      }
+      .geography h2 , .country p{
+        font-size: 16px;
+      }
+      .list-item{
+        height: 230px;
+      }
+      .container_two{
+        height: 790px;
+      }
+      .banner img{
+        top: 80px;
+      }
+  }
 
+  @media screen and (max-width:435px){
+      .header_second{
+       height: 50px;
+      }
+      .banner_info{
+        width: 320px;
+      }
+      .middle-line{
+        max-width: 100px;
+      }
+      .topics-list{
+        margin-left: 80px;
+       }
+  }
+  
+  @media screen and (max-width:435px){
+    .banner_info {
+     margin-bottom: 325px;
+    }
+    .banner_info h1 {
+      line-height: 10px;
+     }
+     .middle-line{
+       min-width: 100px;
+     }
+  }
 
-
-
-
-
-
-
-
-
-
+  @media screen and (max-width:400px){
+    .banner_info_defenition , .banner_info{
+      width: 310px;
+    }
+    .banner_info h1{
+      line-height: 19px;
+    }
+    .banner_info_defenition {
+      line-height: 15px;
+      font-size: 12px;
+    }
+    .middle-line-geo{
+      margin-left: 50px;
+    }
+    .language ul , .mail{
+      font-size: 14px;
+    }
+    .banner{
+      margin-bottom: 120px;
+    }
+    
+  }
 
 @media screen and (max-width:360px){
   .navigation{
